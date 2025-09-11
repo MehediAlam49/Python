@@ -7,7 +7,7 @@ letter = ['m','e','h','e','d','i']
 print(letter)
 
 # string list
-str = ['mehedi','alam','saiful','alam']
+str = ['mehedi','alam','md','saiful','alam']
 print(str)
 
 # Mixing list
@@ -36,3 +36,22 @@ print(mix[2:4])
 print(mix[::2])
 # Access element using reverse index
 print(mix[::-1])
+
+
+
+# -----Operations in list------
+# print specific number of content in list
+print([0]*100)
+
+# concatinate 2 string
+conc = letter + str
+print(conc)
+
+# extract the letter of a string
+text = list("This is Mehedi")
+print(text)
+
+# seperate the value of a string
+one, *other = str
+print(one)
+print(other)
