@@ -58,3 +58,21 @@ print(other)
 
 
 
+# -------Methods in list
+
+# append method
+print(num)
+num.append(9)
+print(num)
+
+# extend method
+num.extend(str)
+print(num)
+
+# insert method
+num.insert(6,'Aowlad')
+print(num)
+
+# remove method
+num.remove('md')
+print(num)
