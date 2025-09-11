@@ -76,3 +76,8 @@ print(num)
 # remove method
 num.remove('md')
 print(num)
+
+# sort method
+str1 = ['e','o', 'q','j','a', 'z']
+str1.sort()
+print(str1)
