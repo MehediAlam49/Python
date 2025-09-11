@@ -55,3 +55,6 @@ print(text)
 one, *other = str
 print(one)
 print(other)
+
+
+
