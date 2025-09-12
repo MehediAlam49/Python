@@ -81,3 +81,21 @@ print(num)
 str1 = ['e','o', 'q','j','a', 'z']
 str1.sort()
 print(str1)
+
+
+
+
+
+# --------------Python built-in functions---------
+
+x = [4,8,889,365,56,4,5,2,85]
+# Length of the number of this list
+print(len(x))
+# Minimum number of this list
+print(min(x))
+# Maximum number of this list
+print(max(x))
+# Sum of the number of this list
+print(sum(x))
+# Average of the number of this list
+print(sum(x)/len(x))
