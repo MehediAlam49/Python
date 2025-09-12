@@ -15,6 +15,29 @@ print(str.upper())
 # lowercase method
 print(str.lower())
 
+# find method
+print(str.find('t'))
+
+# index method
+print(str.index('t'))
+
+# split method
+print(str.split())
+
+# replace method
+print(str.replace('here','python'))
+
+# rpartition method
+print(str.rpartition(' '))
+
+# concatination method
+str2 = "This is Mehedi Alam"
+print(str +'. '+ str2)
+
+#format method
+print("{}. {}".format(str,str2))
+print(f"{str}. {str2}")
+
 
 
 
