@@ -39,3 +39,9 @@ elif l == 'u':
 else:
     print('This is a Consonent')
     
+    
+# turnery operator
+score = 25
+status = 'pass' if score >= 40 else 'Fail'
+print(status)
+    
