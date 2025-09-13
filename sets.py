@@ -32,3 +32,9 @@ print(s1.intersection(s2)) #Common elements
 
 # difference operation
 print(s1.difference(s2)) # Elements in set1 not in set2
+
+
+
+# frozen set
+fs = ([8,9,34,9,1]) # immutable version of a set
+print(fs)
