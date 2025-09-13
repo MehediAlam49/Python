@@ -35,3 +35,12 @@ print(d)
 # used popitem
 d.popitem() # popitem delete the last item
 print(d)
+
+
+# ----In-build function
+#values method
+print(d.values())
+
+# clear method
+d.clear()
+print(d)
