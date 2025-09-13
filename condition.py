@@ -21,3 +21,21 @@ if z>25:
         print('Number is grater then 25 and odd number')
 else:
     print('Number is less then 25')
+    
+    
+    
+# if-elif-else statement
+l = 'o'
+if l == 'a':
+    print('This is a vowel and letter is a')
+elif l == 'e':
+    print('This is a vowel and letter is e')
+elif l == 'i':
+    print('This is a vowel and letter is i')
+elif l == 'o':
+    print('This is a vowel and letter is o')
+elif l == 'u':
+    print('This is a vowel and letter is u')
+else:
+    print('This is a Consonent')
+    
