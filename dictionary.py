@@ -6,3 +6,11 @@ print(dict)
 
 # nested dictionary
 print(d)
+
+# add element
+d['age']=24
+print(d)
+
+# update element
+d.update({'age':25})
+print(d)
