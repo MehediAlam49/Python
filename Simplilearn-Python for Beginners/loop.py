@@ -17,3 +17,22 @@ for i in x:
     for j in i:
         print(j, end='')
     print()
+
+
+
+# ----loop control statement
+
+# break statement
+text = 'Hey there. This is mehedi'
+for i in text:
+    if i == '.':
+        break
+    print(i, end='')
+    
+    
+# continue statement
+n = [1,5,98,4,32,3]
+for i in n:
+    if i>10:
+        continue
+    print(i)
