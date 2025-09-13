@@ -24,3 +24,14 @@ print(d.get(1))
 
 # accessing nested dict
 print(d['name']['fname'])
+
+
+# -----delete element
+
+#used pop method
+d.pop('age') #delete specific item
+print(d)
+
+# used popitem
+d.popitem() # popitem delete the last item
+print(d)
