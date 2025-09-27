@@ -11,7 +11,7 @@ class person:
         print(f"Hi i am {self.name}")
         
     def gender_type(self):
-        print(f"I am {self.gender} person")
+        print(f"I am a {self.gender} person")
 
     def vote(self):
         if self.age > 18:
